@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>osu.Framework.Spine</PackageId>
+        <Title>osu!framework Spine Extension</Title>
+        <Authors>sanco</Authors>
+        <Copyright>Copyright (c) 2025 sanco</Copyright>
+        <Description>Spine support for osu!framework</Description>
+        <PackageProjectUrl>https://github.com/SanicBTW/osu-framework-spine</PackageProjectUrl>
+        <PackageLicenseUrl>https://esotericsoftware.com/spine-runtimes-license</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/SanicBTW/osu-framework-spine</RepositoryUrl>
+        <PackageTags>spine, osu!framework</PackageTags>
+        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <Product>osu!framework Spine Extension</Product>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\osu.Framework.Spine.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ppy.osu.Framework" Version="2025.419.0" />
+    </ItemGroup>
+
+</Project>
