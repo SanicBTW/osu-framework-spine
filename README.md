@@ -17,4 +17,4 @@ This library uses `spine-csharp` (located as Spine in the source code) the C# Sp
 
 * [Spine Runtimes License](https://esotericsoftware.com/spine-runtimes-license).
 
-However the code under `osu.Framework.Spine` falls under the MIT License. See the [LICENSE](https://github.com/SanicBTW/osu-framework-spine/blob/master/LICENSE.txt) for the full text.
+However the code under `osu.Framework.Spine` falls under the MIT License. See the [LICENSE](https://github.com/SanicBTW/osu-framework-spine/blob/master/License.txt) for the full text.
