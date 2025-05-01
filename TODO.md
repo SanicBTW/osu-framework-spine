@@ -8,14 +8,14 @@ As mentioned in the README. There's still a couple of features missing from the 
 - [ ] Add support for the second tint
 - [ ] Fix weird texture outline in some atlases
 - [ ] Add support for texture layers in MeshBatcher
-- [ ] Fix rendering issues; the animation doesn't look properly
+- [ ] Fix rendering issues; the animation doesn't look properly, doesn't transform properly, weird flickering, ...
 - [ ] Render inside the Sprite bounds using ScreenSpaceDrawQuad
 - [ ] Add the debug renderer (DebugSpineDrawNode)
 - [ ] Add support for osu!framework Texture Atlases;
     
     Atlases currently render without any issue but the size and position might be incorrect inside the mesh definition
 
-- [ ] Tests
+- [X] ~~Tests~~ Examples
 - [X] Don't force the developer to register "Resources" or a ResourceStore to use SpineSprite
 
 ### Optional changes

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Fonts\**\*"/>
+        <EmbeddedResource Include="Samples\**\*"/>
+        <EmbeddedResource Include="Textures\**\*"/>
+        <EmbeddedResource Include="Tracks\**\*"/>
+      
+        <!-- You can also embed the data (.atlas, .json, .skel) in any other directory --> 
+        <EmbeddedResource Include="Data\**\*"/>
+    </ItemGroup>
+</Project>
