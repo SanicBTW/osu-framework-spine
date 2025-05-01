@@ -19,11 +19,11 @@
         <PackageProjectUrl>https://github.com/SanicBTW/osu-framework-spine/</PackageProjectUrl>
         <RepositoryUrl>https://github.com/SanicBTW/osu-framework-spine/</RepositoryUrl>
         <PackageTags>spine, osu!framework</PackageTags>
-        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageReleaseNotes>Fix constant re-allocation of the VertexBatch</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Product>osu!framework Spine Extension</Product>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <FileVersion>1.0.0.0</FileVersion>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">

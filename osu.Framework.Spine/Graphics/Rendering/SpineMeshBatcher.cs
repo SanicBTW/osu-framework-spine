@@ -49,8 +49,13 @@ public class SpineMeshBatcher : IDisposable
         // The reason why we do this is because if we vertex batch is too small, some triangles won't be drawn into the screen
         // thus we have to recreate the batch to fit the maximum size possible so we can draw without artifacts
         // It usually takes around 2~3 calls to reach the maximum size, but could throw at some point.
-        if (_vertexBatch?.Size < triangleCount) _vertexBatch?.Dispose();
-        _vertexBatch = _renderer.CreateLinearBatch<TexturedVertex2D>(triangleCount, vertexCount, PrimitiveTopology.Triangles);
+        if (_vertexBatch?.Size < triangleCount)
+        {
+            _vertexBatch?.Dispose();
+            _vertexBatch = null;
+        }
+
+        _vertexBatch ??= _renderer.CreateLinearBatch<TexturedVertex2D>(triangleCount, vertexCount, PrimitiveTopology.Triangles);
     }
 
     public void Draw()
